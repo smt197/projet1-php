@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,140 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/page9.css">   
     <title>page9</title>
+    <style>
+        select {
+            padding: 8px 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        select:hover {
+            border-color: #999;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #555;
+        }
+    </style>
 </head>
 <body>
-    <!---------Milieu--------------->
-
-	<div class="promotions">
-		<h2>Présence</h2>
-		<span>Présence * Liste</span>
-	</div>
-	
-	<div class="containe">
-
-		<div class="section1">
-            <div class="stat">
-                <span style="color: gray;">Statut</span>
-                <span><i class="fa-solid fa-caret-down"></i></span>
-            </div>
-            <div class="ref">
-                <span style="color: gray;">Referentiels</span>
-                <span><i class="fa-solid fa-caret-down"></i></span>
-            </div>
-            <input type="date" class="date">
-            <div class="fresh">Rafraichir</div>
-		</div>
-
-        <div class="section2">
-            <div class="mat">Matricule</div>
-            <div class="nom">Nom</div>
-            <div class="prenom">Prenom</div>
-            <div class="tel">Telephone</div>
-            <div class="refer">Referentiel</div>
-            <div class="h-arr">Heure d'arrive</div>
-            <div class="statu">Statut</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr" style="color: red;">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">06:49</div>
-            <div class="statu">PRESENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">-</div>
-            <div class="statu" style="color: red;background-color: rgb(251, 222, 222);">ABSENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">-</div>
-            <div class="statu"style="color: red;background-color: rgb(251, 222, 222);">ABSENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">-</div>
-            <div class="statu"style="color: red;background-color: rgb(251, 222, 222);">ABSENT</div>
-		</div>
-
-        <div class="section3">
-            <div class="mat">P6_DEVDAT_2024_126</div>
-            <div class="nom">Faye</div>
-            <div class="prenom">Ibrahima</div>
-            <div class="tel">777463886</div>
-            <div class="refer">Developpement Data</div>
-            <div class="h-arr">-</div>
-            <div class="statu"style="color: red;background-color: rgb(251, 222, 222);">ABSENT</div>
-		</div>
-
+    <!-- Milieu -->
+    <div class="promotions">
+        <h2>Présence</h2>
+        <span>Présence * Liste</span>
+    </div>
+    <div class="containe">
+        <form action="" method="post">
+        <input type="hidden" name="page" value="filtre_presence">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Statut</th>
+                    <th>Référentiels</th>
+                    <th>Date</th>
+                    <th>Rafraîchir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="statut">Statut</option>
+                            <option value="present">Présent</option>
+                            <option value="absent">Absent</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="referentiel" id="referentiel">
+                            <option value="dev_data">Développement Data</option>
+                            <option value="reseaux">Réseaux</option>
+                        </select>
+                    </td>
+                    <td><input type="date" class="date"></td>
+                    <td><button type="submit" name="submit">Rafraîchir</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Matricule</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Téléphone</th>
+                    <th>Référentiel</th>
+                    <th>Heure d'arrivée</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($Allstudents as $value) :?>
+                <tr>
+                    <td><?= $value['matricule'] ?></td>
+                    <td><?= $value['nom'] ?></td>
+                    <td><?= $value['prenom'] ?></td>
+                    <td><?= $value['telephone'] ?></td>
+                    <td><?= $value['referenciel'] ?></td>
+                    <td><?= $value['heure_arrivee'] ?></td>
+                    <td><?= $value['status'] ?></td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+        </form>
         <div class="section4">
             <div class="item">
                 <span style="color: gray;">Item par page:</span> 10 <i class="fa-solid fa-caret-down"></i>
@@ -147,11 +99,12 @@
                 <span>111-120 of 128</span>
             </div>
             <div class="fleche">
-                <span>|</i></span>
+                <span>|</span>
                 <span><i class="fa-solid fa-chevron-left"></i></span>
                 <a href="page10.php"><span><i class="fa-solid fa-chevron-right"></i></span></a>
             </div>
-	</div>
+        </div>
+    </div>
     <p><i class="fa-solid fa-gear"></i></p>
 </body>
 </html>

@@ -595,253 +595,37 @@ font-size: 1em;
   }
 
 
-
-
  /*Modal NOUVEAU ------- */
 
-        /* .contentrer{
-            position: relative;
-            display: flex;
-            justify-content: center;
-             align-items: center; 
-            height: 650px;
-            width: 1000px;
-            background-color: white;
-        }
-        .contentrer .head{
-			position: relative;
-			top: -295px;
-            background-color: rgb(210, 207, 207);
-            display: flex;
-            align-items: center;
-            height: 60px;
-            width: 1000px;
-        }
-        .contentrer .head .text{
-            padding: 2px;
-            font-weight: bold;
-        }
-        .contentrer .head .croix{
-            padding: 2px;
-            position: absolute;
-            right: 0;
-            margin: 5px;
-        }
-        .contentrer .tete{
-            position: absolute;
-            display: flex;
-            gap: 15px;
-            height: 60px;
-            width: 990px;
-            justify-content: center;
-            align-items: center;
-            top: 70px;
-        }
-        .contentrer .tete .pen{
-            background-color: #008F89;
-            color: white;
-            padding: 10px;
-            border-radius: 50px;
-        }
-        .contentrer .tete .deux{
-            background-color: #008F89;
-            color: white;
-            padding: 10px;
-            width: 40px;
-            border-radius: 50px;
-        }
-        .contentrer .tete .barre{
-            height: 1px;
-            width: 400px;
-            background-color: rgb(185, 181, 181);
-        }
-        .contentrer .tete .text{
-            font-weight: bold;
-        }
-        .contentrer .texte{
-            position: absolute;
-            display: flex;
-            gap: 430px;
-            top: 140px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .texte2{
-            position: absolute;
-            display: flex;
-            gap: 420px;
-            top: 240px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .texte3{
-            position: absolute;
-            display: flex;
-            gap: 430px;
-            top: 330px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .texte4{
-            position: absolute;
-            display: flex;
-            gap: 358px;
-            top: 430px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .diver1{
-            position: absolute;
-            display: flex;
-            gap: 30px;
-            top: 170px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .diver1 div{
-            display: flex;
-            align-items: center;
-            width: 500px;
-            height: 50px;
-           border: 2px solid gray;
-           color: gray;
-           border-radius: 5px;
-        }
-        .contentrer .diver2{
-            position: absolute;
-            display: flex;
-            gap: 30px;
-            top: 270px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .diver2 div{
-            display: flex;
-            align-items: center;
-            width: 500px;
-            height: 50px;
-           border: 2px solid gray;
-           color: gray;
-           border-radius: 5px;
-        }
-        .contentrer .diver3{
-            position: absolute;
-            display: flex;
-            gap: 30px;
-            top: 370px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .diver3 div{
-            display: flex;
-            align-items: center;
-            width: 500px;
-            height: 50px;
-            border: 2px solid gray;
-            color: gray;
-            border-radius: 5px;
-        }
-        .contentrer .diver4{
-            position: absolute;
-            display: flex;
-            gap: 40px;
-            top: 470px;
-            left: 50px;
-            display: flex;
-            width: 900px;
-            height: 20px;
-        }
-        .contentrer .diver4 div{
-            display: flex;
-            align-items: center;
-            width: 430px;
-            height: 50px;
-            border: 2px solid gray;
-            color: gray;
-            border-radius: 5px;
-        }
-        .contentrer .boutton{
-            position: absolute;
-            display: flex;
-            bottom: 40px;
-            left: 40px;
-        }
-        .contentrer .vert{
-            background-color: #008F89;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .contentrer .diver3 .text1 span i{
-            position: relative;
-            left: 270px;
-        }
-        .contentrer .flesh1{
-            position: absolute;
-            right: 275px;
-        }
-        .contentrer .rond{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 100px;
-            left: 450px;
-            background-color: rgb(203, 201, 201);
-            height: 70px;
-            width: 70px;
-            border-radius: 50px;
-        } */
-
-/*Modal NOUVEAU Suivant-------*\
-
-  /* body{
-	position: relative;
-	top: 150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
-/* .content{
+ .contentrer{
 	position: relative;
 	display: flex;
 	justify-content: center;
+	 align-items: center; 
 	height: 650px;
 	width: 1000px;
 	background-color: white;
 }
-.head{
+.contentrer .head{
+	position: relative;
+	top: -295px;
 	background-color: rgb(210, 207, 207);
 	display: flex;
 	align-items: center;
 	height: 60px;
 	width: 1000px;
 }
-.head .text{
+.contentrer .head .text{
 	padding: 2px;
 	font-weight: bold;
 }
-.head .croix{
+.contentrer .head .croix{
 	padding: 2px;
 	position: absolute;
 	right: 0;
 	margin: 5px;
 }
-.tete{
+.contentrer .tete{
 	position: absolute;
 	display: flex;
 	gap: 15px;
@@ -851,28 +635,28 @@ font-size: 1em;
 	align-items: center;
 	top: 70px;
 }
-.tete .pen{
+.contentrer .tete .pen{
 	background-color: #008F89;
 	color: white;
 	padding: 10px;
 	border-radius: 50px;
 }
-.tete .deux{
+.contentrer .tete .deux{
 	background-color: #008F89;
 	color: white;
 	padding: 10px;
 	width: 40px;
 	border-radius: 50px;
 }
-.tete .barre{
+.contentrer .tete .barre{
 	height: 1px;
 	width: 400px;
 	background-color: rgb(185, 181, 181);
 }
-.tete .text{
+.contentrer .tete .text{
 	font-weight: bold;
 }
-.texte{
+.contentrer .texte{
 	position: absolute;
 	display: flex;
 	gap: 430px;
@@ -882,7 +666,7 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.texte2{
+.contentrer .texte2{
 	position: absolute;
 	display: flex;
 	gap: 420px;
@@ -892,7 +676,7 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.texte3{
+.contentrer .texte3{
 	position: absolute;
 	display: flex;
 	gap: 430px;
@@ -902,7 +686,7 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.texte4{
+.contentrer .texte4{
 	position: absolute;
 	display: flex;
 	gap: 358px;
@@ -912,7 +696,7 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.diver1{
+.contentrer .diver1{
 	position: absolute;
 	display: flex;
 	gap: 30px;
@@ -922,16 +706,17 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.diver1 div{
+.contentrer .diver1 div{
 	display: flex;
 	align-items: center;
+	/* justify-content: center; */
 	width: 500px;
 	height: 50px;
    border: 2px solid gray;
    color: gray;
    border-radius: 5px;
 }
-.diver2{
+.contentrer .diver2{
 	position: absolute;
 	display: flex;
 	gap: 30px;
@@ -941,16 +726,17 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.diver2 div{
+.contentrer .diver2 div{
 	display: flex;
 	align-items: center;
+	/* justify-content: center; */
 	width: 500px;
 	height: 50px;
    border: 2px solid gray;
    color: gray;
    border-radius: 5px;
 }
-.diver3{
+.contentrer .diver3{
 	position: absolute;
 	display: flex;
 	gap: 30px;
@@ -960,16 +746,17 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.diver3 div{
+.contentrer .diver3 div{
 	display: flex;
 	align-items: center;
+	/* justify-content: center; */
 	width: 500px;
 	height: 50px;
 	border: 2px solid gray;
 	color: gray;
 	border-radius: 5px;
 }
-.diver4{
+.contentrer .diver4{
 	position: absolute;
 	display: flex;
 	gap: 40px;
@@ -979,36 +766,37 @@ font-size: 1em;
 	width: 900px;
 	height: 20px;
 }
-.diver4 div{
+.contentrer .diver4 div{
 	display: flex;
 	align-items: center;
+	/* justify-content: center; */
 	width: 430px;
 	height: 50px;
 	border: 2px solid gray;
 	color: gray;
 	border-radius: 5px;
 }
-.boutton{
+.contentrer .boutton{
 	position: absolute;
 	display: flex;
 	bottom: 40px;
 	left: 40px;
 }
-.vert{
+.contentrer .vert{
 	background-color: #008F89;
 	color: white;
 	padding: 10px;
 	border-radius: 5px;
 }
-.diver3 .text1 span i{
+.contentrer .diver3 .text1 span i{
 	position: relative;
 	left: 270px;
 }
-.flesh1{
+.contentrer .flesh1{
 	position: absolute;
 	right: 275px;
 }
-.rond{
+.contentrer .rond{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1019,7 +807,224 @@ font-size: 1em;
 	height: 70px;
 	width: 70px;
 	border-radius: 50px;
-} */
+}
+
+/* /*Modal NOUVEAU Suivant-------*\ */
+
+ /* body{
+position: relative;
+top: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}  */
+.content{
+position: relative;
+display: flex;
+justify-content: center;
+height: 650px;
+width: 1000px;
+background-color: white;
+}
+.head{
+background-color: rgb(210, 207, 207);
+display: flex;
+align-items: center;
+height: 60px;
+width: 1000px;
+}
+.head .text{
+padding: 2px;
+font-weight: bold;
+}
+.head .croix{
+padding: 2px;
+position: absolute;
+right: 0;
+margin: 5px;
+}
+.tete{
+position: absolute;
+display: flex;
+gap: 15px;
+height: 60px;
+width: 990px;
+justify-content: center;
+align-items: center;
+top: 70px;
+}
+.tete .pen{
+background-color: #008F89;
+color: white;
+padding: 10px;
+border-radius: 50px;
+}
+.tete .deux{
+background-color: #008F89;
+color: white;
+padding: 10px;
+width: 40px;
+border-radius: 50px;
+}
+.tete .barre{
+height: 1px;
+width: 400px;
+background-color: rgb(185, 181, 181);
+}
+.tete .text{
+font-weight: bold;
+}
+.texte{
+position: absolute;
+display: flex;
+gap: 430px;
+top: 140px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.texte2{
+position: absolute;
+display: flex;
+gap: 420px;
+top: 240px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.texte3{
+position: absolute;
+display: flex;
+gap: 430px;
+top: 330px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.texte4{
+position: absolute;
+display: flex;
+gap: 358px;
+top: 430px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.diver1{
+position: absolute;
+display: flex;
+gap: 30px;
+top: 170px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.diver1 div{
+display: flex;
+align-items: center;
+width: 500px;
+height: 50px;
+border: 2px solid gray;
+color: gray;
+border-radius: 5px;
+}
+.diver2{
+position: absolute;
+display: flex;
+gap: 30px;
+top: 270px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.diver2 div{
+display: flex;
+align-items: center;
+width: 500px;
+height: 50px;
+border: 2px solid gray;
+color: gray;
+border-radius: 5px;
+}
+.diver3{
+position: absolute;
+display: flex;
+gap: 30px;
+top: 370px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.diver3 div{
+display: flex;
+align-items: center;
+width: 500px;
+height: 50px;
+border: 2px solid gray;
+color: gray;
+border-radius: 5px;
+}
+.diver4{
+position: absolute;
+display: flex;
+gap: 40px;
+top: 470px;
+left: 50px;
+display: flex;
+width: 900px;
+height: 20px;
+}
+.diver4 div{
+display: flex;
+align-items: center;
+width: 430px;
+height: 50px;
+border: 2px solid gray;
+color: gray;
+border-radius: 5px;
+}
+.boutton{
+position: absolute;
+display: flex;
+bottom: 40px;
+left: 40px;
+}
+.vert{
+background-color: #008F89;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+.diver3 .text1 span i{
+position: relative;
+left: 270px;
+}
+.flesh1{
+position: absolute;
+right: 275px;
+}
+.rond{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 100px;
+left: 450px;
+background-color: rgb(203, 201, 201);
+height: 70px;
+width: 70px;
+border-radius: 50px;
+}
+
+
+
 
 /* Modal en masse */
 .contenter{

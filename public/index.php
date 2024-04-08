@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
 </head>
+
 <body>
     <?php
-        include("../template/partial/menu.html.php");
-        // include("../models/liste.model.php");
-        if($_GET['page']==1){
-            include("../template/page1.html.php");
+
+    include("../models/liste.model.php");
+
+    $Allapprenants = generApprenant();
+
+    $Allstudents = generEtudiant();
+
+    $Allpromotions = promotion();
+
+    include("../template/partial/menu.html.php");
+    // Liste des pages autorisées
+    $pagesAutorisees = [1, 2, 4, 7, 9, 12];
+
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];
+
+        // Vérifier si la page est autorisée
+        if (in_array($page, $pagesAutorisees)) {
+            // Inclure la page si elle est autorisée
+            include("../template/page{$page}.html.php");
+        } else {
+            // Rediriger ou afficher un message d'erreur si la page n'est pas autorisée
+            echo "Accès non autorisé à cette page";
         }
-        else if($_GET['page']==12){
-            include("../template/page12.html.php");
-        }
-        else if($_GET['page']==4){
-            include("../template/page4.html.php");
-        }
-        else if($_GET['page']==2){
-            include("../template/page2.html.php");
-        }
-        else if($_GET['page']==7){
-            include("../template/page7.html.php");
-        }
-        else if($_GET['page']==9){
-            include("../template/page9.html.php");
-        }
-        // else if($_GET['page']==14){
-            
-        // }
-        // else{
-        //     include("../template/error.html.php");
-        // }
+    } else {
+        // Gérer le cas où 'page' n'est pas défini dans l'URL
+        echo "Aucune page spécifiée";
+    }   
+    
     ?>
 </body>
+
 </html>
