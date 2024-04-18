@@ -77,33 +77,37 @@ function generEtudiant()
     return $etudiants;
 }
 
-function promotion()
-{
-    $promo = [
-        [
-            'libelle' => "promo1",
-            'dateDebut' => "2022-01-01",
-            'dateFin' => "2022-12-12",
-        ],
-        [
-            'libelle' => "promo4",
-            'dateDebut' => "2022-01-01",
-            'dateFin' => "2022-12-12",
-        ],
-        [
-            'libelle' => "promo2",
-            'dateDebut' => "2022-01-01",
-            'dateFin' => "2022-12-12",
-        ],
-        [
-            'libelle' => "promo3",
-            'dateDebut' => "2022-01-01",
-            'dateFin' => "2022-12-12",
-        ],
+// function promotion()
+// {
+//     $promo = [
+//         [
+//             'libelle' => "promo1",
+//             'dateDebut' => "2022-01-01",
+//             'dateFin' => "2022-12-12",
+//             'action' => "Off",
+//         ],
+//         [
+//             'libelle' => "promo4",
+//             'dateDebut' => "2022-01-01",
+//             'dateFin' => "2022-12-12",
+//             'action' => "On",
+//         ],
+//         [
+//             'libelle' => "promo2",
+//             'dateDebut' => "2022-01-01",
+//             'dateFin' => "2022-12-12",
+//             'action' => "Off",
+//         ],
+//         [
+//             'libelle' => "promo3",
+//             'dateDebut' => "2022-01-01",
+//             'dateFin' => "2022-12-12",
+//             'action' => "On",
+//         ],
 
-    ];
-    return $promo;
-}
+//     ];
+//     return $promo;
+// }
 
 function filtrePresence(){
     $Allstudents=generEtudiant();

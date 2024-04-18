@@ -91,7 +91,7 @@
             </tbody>
         </table>
         </form>
-        <div class="section4">
+        <!-- <div class="section4">
             <div class="item">
                 <span style="color: gray;">Item par page:</span> 10 <i class="fa-solid fa-caret-down"></i>
             </div>
@@ -103,8 +103,8 @@
                 <span><i class="fa-solid fa-chevron-left"></i></span>
                 <a href="page10.php"><span><i class="fa-solid fa-chevron-right"></i></span></a>
             </div>
-        </div>
-    </div>
+        </div> -->
+    </div> 
     <p><i class="fa-solid fa-gear"></i></p>
 </body>
 </html>

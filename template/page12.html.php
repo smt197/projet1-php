@@ -61,17 +61,21 @@
                         <td class="prenom" style="font-weight: 200;"><?= $value['dateFin'] ?></td>
                         <!-- <td class="action"><i class="fa-solid fa-plus"></td> -->
                     </tr>
-                    <?php 
+                    <?php
                             endforeach;
                         } else {
                             // Afficher toutes les promotions si aucune recherche n'est effectuée
-                            foreach ($Allpromotions as $value) :
+
+                            foreach ($Allpromotions as $value) :                                                              
                     ?>
+                    
                     <tr class="section3">
                         <td class="mat" style="color: #008F89; font-weight:200;"><i class="fa-solid fa-gears"></i>&ensp;<?= $value['libelle'] ?></td>
                         <td class="nom" style="font-weight: 200;"><?= $value['dateDebut'] ?></td>
                         <td class="prenom" style="font-weight: 200;"><?= $value['dateFin'] ?></td>
-                        <td class="action"><i class="fa-solid fa-plus"></td>
+                        <form method="post" action="">
+                            <td class="action"><input type="checkbox" name="promotion[]" onchange="this.form.submit()" value="<?= $value['action'] ?>"></td>
+                        </form>
                     </tr>
                     <?php 
                             endforeach;

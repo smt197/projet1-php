@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,12 +14,13 @@
     <?php
 
     include("../models/liste.model.php");
+    include("../models/promotion.model.php");
+    include("../models/referentiels.model.php");
 
     $Allapprenants = generApprenant();
-
     $Allstudents = generEtudiant();
-
     $Allpromotions = promotion();
+    $Allreferentiels = getReferentielsData();
 
     include("../template/partial/menu.html.php");
     // Liste des pages autorisées

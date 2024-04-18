@@ -7,49 +7,31 @@
     <title>page2</title>
 </head>
 <body>
-    <!---------Milieu--------------->
+    <!-- Milieu -->
+    <div class="promotions">
+        <h2>Referentiels</h2>
+        <span>Referentiels * <span style="font-weight: bold;">Liste</span></span>
+    </div>
+    
+    <div class="containe">
+        <?php
+        // Inclure le fichier modèle des référentiels
+        // include("referentiels.model.php");
 
-	<div class="promotions">
-		<h2>Referentiels</h2>
-		<span>Referentiels * <span style="font-weight: bold;">Liste</span></span>
-	</div>
-	
-	<div class="containe">
+        // Appeler la fonction pour obtenir les données des référentiels
+        // $Allreferentiels = getReferentielsData();
 
-        <div class="div1">
-            <span>...</span>
-            <div class="img"></div>
-            <div class="text1">Developpement Data</div>
-            <div class="text2"><span style="color: #008F89;">Active</span></div>
-        </div>
-        <div class="div2">
-            <span>...</span>
-            <div class="img"></div>
-            <div class="text1">Developpement Data</div>
-            <div class="text2"><span style="color: #008F89;">Active</span></div>
-        </div>
-        <div class="div3">
-            <span>...</span>
-            <div class="img"></div>
-            <div class="text1">Developpement Data</div>
-            <div class="text2"><span style="color: #008F89;">Active</span></div>
-        </div>
-        <div class="div4">
-            <span>...</span>
-            <div class="img"></div>
-            <div class="text1">Developpement Data</div>
-            <div class="text2"><span style="color: #008F89;">Active</span></div>
-        </div>
-        <div class="div5">
-            
-        </div>
-        <div class="div6">
-            <span>...</span>
-            <div class="img"></div>
-            <div class="text1">Developpement Data</div>
-            <div class="text2"><span style="color: #008F89;">Active</span></div>
-        </div>
+        foreach ($Allreferentiels as $key => $referentiel) {
+            $class = "div" . ($key + 1); // Classe CSS pour div
+            echo "<div class='$class'>";
+            echo "<span>...</span>";
+            echo "<div class='img'></div>";
+            echo "<div class='text1'>" . $referentiel['name'] . "</div>";
+            echo "<div class='text2'><span style='color: #008F89;'>" . $referentiel['status'] . "</span></div>";
+            echo "</div>";
+        }
+        ?>
         <p><i class="fa-solid fa-gear"></i></p>
-	</div>
+    </div>
 </body>
 </html>
